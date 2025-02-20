@@ -1,0 +1,62 @@
+Source,Target,Value,,Label,Index
+Applied,LinkedIn,369,,Applied,0
+Applied,Indeed,43,,LinkedIn,1
+Applied,Simplify Jobs,18,,Indeed,2
+Applied,RippleMatch,2,,Simplify Jobs,3
+Applied,Handshake,16,,RippleMatch,4
+Applied,NLC,15,,Handshake,5
+Applied,RH/Cella/Upwork,40,,NLC,6
+Applied,AAS,2,,RH/Cella/Upwork,7
+Applied,Career Fair,7,,AAS,8
+Applied,Company Website,10,,Career Fair,9
+Applied,Referral,5,,Company Website,10
+LinkedIn,Interview,2,,Referral,11
+Indeed,Interview,7,,Interview,12
+Simplify Jobs,Interview,0,,OA,13
+RippleMatch,Interview,0,,Rejected,14
+Handshake,Interview,1,,No Response,15
+NLC,Interview,2,,Accepted,16
+RH/Cella/Upwork,Interview,0,,,
+AAS,Interview,0,,,
+Career Fair,Interview,2,,,
+Company Website,Interview,0,,,
+Referral,Interview,0,,,
+LinkedIn,OA,4,,,
+Indeed,OA,7,,,
+Simplify Jobs,OA,0,,,
+RippleMatch,OA,0,,,
+Handshake,OA,1,,,
+NLC,OA,2,,,
+RH/Cella/Upwork,OA,0,,,
+AAS,OA,0,,,
+Career Fair,OA,2,,,
+Company Website,OA,0,,,
+Referral,OA,0,,,
+LinkedIn,Rejected,132,,,
+Indeed,Rejected,7,,,
+Simplify Jobs,Rejected,7,,,
+RippleMatch,Rejected,1,,,
+Handshake,Rejected,8,,,
+NLC,Rejected,9,,,
+RH/Cella/Upwork,Rejected,0,,,
+AAS,Rejected,0,,,
+Career Fair,Rejected,4,,,
+Company Website,Rejected,5,,,
+Referral,Rejected,4,,,
+LinkedIn,No Response,237,,,
+Indeed,No Response,35,,,
+Simplify Jobs,No Response,11,,,
+RippleMatch,No Response,1,,,
+Handshake,No Response,8,,,
+NLC,No Response,6,,,
+RH/Cella/Upwork,No Response,40,,,
+AAS,No Response,2,,,
+Career Fair,No Response,3,,,
+Company Website,No Response,5,,,
+Referral,No Response,1,,,
+OA,Interview,3,,,
+OA,No Response,5,,,
+OA,Rejected,7,,,
+Interview,No Response,6,,,
+Interview,Rejected,7,,,
+Interview,Accepted,1,,,
