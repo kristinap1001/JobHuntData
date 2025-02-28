@@ -1,7 +1,11 @@
 import plotly.graph_objects as go
 import pandas as pd
+import gspread
 
-jobDf = pd.read_csv("JobData.csv")[['Source','Target','Value']]
+# Get source/target/values data from google sheets
+gc = gspread.oauth()
+wks = gc.open("Recruiting Hell").worksheet("Sankey")
+jobDf = pd.DataFrame(wks.get_all_records())[['Source','Target','Value']]
 
 labels = ['Applied','LinkedIn','Indeed','Simplify Jobs','RippleMatch','Handshake','NLC','RH/Cella/Upwork','AAS','Career Fair','Company Website',
 'Referral','Interview','OA','Rejected','No Response','Accepted']
