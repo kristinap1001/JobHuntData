@@ -1,6 +1,11 @@
 import plotly.graph_objects as go
 import pandas as pd
 import gspread
+import plotly.io as pio
+
+# Image export settings
+pio.kaleido.scope.default_width = 1920
+pio.kaleido.scope.default_height = 1080
 
 # Get source/target/values data from google sheets
 gc = gspread.oauth()
@@ -36,5 +41,6 @@ fig = go.Figure(data=[go.Sankey(
       color = jobDf['Color'].tolist()
   ))])
 
-fig.update_layout(title_text="Basic Sankey Diagram", font_size=10)
+fig.update_layout(title_text="Job Hunt Sankey Diagram", font_size=10)
+fig.write_image("diagram.png")
 fig.show()
