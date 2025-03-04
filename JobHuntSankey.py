@@ -122,5 +122,5 @@ fig = go.Figure(data=[go.Sankey(
   ))])
 
 fig.update_layout(title_text="Job Hunt Sankey Diagram", font_size=10)
-fig.write_image("diagram.png")
+fig.write_html("diagram.html")
 fig.show()
