@@ -4,6 +4,7 @@ import gspread
 import plotly.io as pio
 import datetime
 import numpy as np
+from random import randint
 
 # Image export settings
 pio.kaleido.scope.default_width = 1920
@@ -96,26 +97,28 @@ sources = [labelDict[key] for key in sankeyTable[:,0]]
 targets = [labelDict[key] for key in sankeyTable[:,1]]
 values = sankeyTable[:,2].tolist()
 
-# todo: add colors (random for job sources, red/gray/green for rejected/waiting/accepted, etc)
-'''
-colors = ['rgba(140, 140, 140, 1)', 'rgba(0, 119, 181, 1)', 'rgba(0, 58, 155, 1)', 'rgba(18, 161, 192, 1)', 'rgba(81, 74, 234, 1)', 
-'rgba(211, 251, 82, 1)', 'rgba(135, 189, 230, 1)', 'rgba(204, 0, 51, 1)', 'rgb(25, 41, 112)', 'rgba(58, 207, 135, 1)', 
-'rgba(255, 107, 243, 1)', 'rgba(237, 151, 64, 0.5)', 'rgba(237, 200, 14, 0.5)', 'rgba(6, 92, 63, 0.5)', 'rgba(110, 0, 0, 0.5)', 
-'rgba(46, 46, 46, 0.5)', 'rgba(88, 255, 46, 0.5)']
-jobDf['Color'] = jobDf.apply(lambda row: colors[int(row['Target'])], axis=1)
-'''
+# Add colors
+colors = ['rgba(140, 140, 140, 1)']
+for i in range(len(jobSources)):
+    colors.append('rgba(%d, %d, %d, 0.75)' % (randint(0,255),randint(0,255),randint(0,255)))
+colors = colors + ['rgba(255, 123, 0, 0.5)', 'rgba(255, 187, 0, 0.5)', 'rgba(110, 0, 0, 0.5)', 'rgba(121, 121, 121, 0.5)', 
+                  'rgba(26, 26, 26, 0.5)','rgba(88, 255, 46, 0.5)']
+
+targetColors = [colors[x] for x in targets] # Link colors correspond to the color of the target node
 
 fig = go.Figure(data=[go.Sankey(
     node = dict(
-      pad = 15,
+      pad = 25,
       thickness = 20,
       line = dict(color = "black", width = 0.5),
-      label = labels
+      label = labels,
+      color = colors
     ),
     link = dict(
       source = sources,
       target = targets,
-      value = values
+      value = values,
+      color = targetColors
   ))])
 
 fig.update_layout(title_text="Job Hunt Sankey Diagram", font_size=10)
