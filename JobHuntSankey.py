@@ -1,31 +1,19 @@
+# Generates Plotly Sankey diagram from job data
+
 import plotly.graph_objects as go
 import pandas as pd
-import gspread
 import plotly.io as pio
 import datetime
 import numpy as np
 from random import randint
+from preprocessing import createDf
 
 # Image export settings
 pio.kaleido.scope.default_width = 1920
 pio.kaleido.scope.default_height = 1080
 
-# Get data from google sheets
-gc = gspread.oauth()
-wks = gc.open("Recruiting Hell").worksheet("Applications")
-jobDf = pd.DataFrame(wks.get_all_records())[['Date','Source','Applied','CL/msg?','Exam','Interview','Status']]
-
-# Checkboxes use strings 'TRUE' and 'FALSE' instead of booleans True and False
-jobDf['Applied'] = jobDf['Applied'].map({'TRUE':True, 'FALSE':False})
-jobDf['CL/msg?'] = jobDf['CL/msg?'].map({'TRUE':True, 'FALSE':False})
-jobDf['Exam'] = jobDf['Exam'].map({'TRUE':True, 'FALSE':False})
-jobDf['Interview'] = jobDf['Interview'].map({'TRUE':True, 'FALSE':False})
-
-# Drop empty rows
-jobDf.drop(jobDf[jobDf['Applied'] == False].index, inplace=True)
-
-# Convert dates to python date objects
-jobDf['Date'] = [datetime.datetime.strptime(x,'%m/%d/%Y').date() for x in jobDf['Date']]
+# Import data from preprocessing
+jobDf = createDf()
 
 # Label names of job sources
 jobSources = jobDf['Source'].unique().tolist()
@@ -122,5 +110,5 @@ fig = go.Figure(data=[go.Sankey(
   ))])
 
 fig.update_layout(title_text="Job Hunt Sankey Diagram", font_size=10)
-fig.write_html("diagram.html")
+fig.write_html("SankeyDiagram.html")
 fig.show()
