@@ -9,8 +9,8 @@ from random import randint
 from preprocessing import createDf
 
 # Image export settings
-pio.kaleido.scope.default_width = 1920
-pio.kaleido.scope.default_height = 1080
+#pio.kaleido.scope.default_width = 1920
+#pio.kaleido.scope.default_height = 1080
 
 # Import data from preprocessing
 jobDf = createDf()

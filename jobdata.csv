@@ -171,7 +171,7 @@ Date,Location,Category,Type,Source,Applied,CL/msg?,Exam,Interview,Status
 6/29/2024,,Creative,Full-Time,LinkedIn,TRUE,FALSE,FALSE,FALSE,Waiting
 6/29/2024,,Creative,Part-Time,LinkedIn,TRUE,FALSE,FALSE,FALSE,Rejected
 6/29/2024,,Creative,Part-Time,LinkedIn,TRUE,FALSE,FALSE,FALSE,Waiting
-6/29/2024,,Data/Web,Internship,Company Website,TRUE,FALSE,FALSE,FALSE,Waiting
+6/29/2024,,Data/Web,Internship,Company Website,TRUE,FALSE,FALSE,FALSE,Rejected
 6/29/2024,,Engineering,Full-Time,Handshake,TRUE,FALSE,FALSE,FALSE,Rejected
 6/29/2024,,Engineering,Full-Time,Company Website,TRUE,FALSE,FALSE,FALSE,Rejected
 6/29/2024,,Engineering,Internship,Company Website,TRUE,FALSE,FALSE,FALSE,Rejected
@@ -351,7 +351,7 @@ Date,Location,Category,Type,Source,Applied,CL/msg?,Exam,Interview,Status
 8/30/2024,On-site,Engineering,Full-Time,Indeed,TRUE,FALSE,FALSE,FALSE,Waiting
 8/30/2024,On-site,Engineering,Full-Time,Indeed,TRUE,FALSE,FALSE,FALSE,Waiting
 8/30/2024,Remote,Engineering,Full-Time,LinkedIn,TRUE,FALSE,FALSE,FALSE,Waiting
-8/30/2024,On-site,Engineering,Full-Time,LinkedIn,TRUE,TRUE,FALSE,FALSE,Waiting
+8/30/2024,On-site,Engineering,Full-Time,LinkedIn,TRUE,TRUE,FALSE,FALSE,Rejected
 8/30/2024,Hybrid,Engineering,Full-Time,LinkedIn,TRUE,FALSE,FALSE,FALSE,Rejected
 8/30/2024,On-site,Engineering,Full-Time,LinkedIn,TRUE,FALSE,FALSE,FALSE,Waiting
 8/30/2024,On-site,Engineering,Full-Time,LinkedIn,TRUE,FALSE,FALSE,FALSE,Waiting
@@ -469,7 +469,7 @@ Date,Location,Category,Type,Source,Applied,CL/msg?,Exam,Interview,Status
 1/3/2025,Remote,Creative,Full-Time,LinkedIn,TRUE,FALSE,FALSE,FALSE,Waiting
 1/3/2025,Remote,Engineering,Full-Time,LinkedIn,TRUE,FALSE,FALSE,FALSE,Rejected
 1/3/2025,On-site,Entry,Full-Time,LinkedIn,TRUE,FALSE,FALSE,FALSE,Waiting
-1/7/2025,On-site,Astro,Full-Time,AAS,TRUE,TRUE,FALSE,FALSE,Waiting
+1/7/2025,On-site,Astro,Full-Time,AAS,TRUE,TRUE,FALSE,FALSE,Rejected
 1/7/2025,On-site,Creative,Full-Time,Indeed,TRUE,FALSE,FALSE,FALSE,Waiting
 1/7/2025,Remote,Creative,Contract,Robert Half,TRUE,FALSE,FALSE,FALSE,Waiting
 1/7/2025,Remote,Creative,Contract,Robert Half,TRUE,FALSE,FALSE,FALSE,Waiting
@@ -609,12 +609,12 @@ Date,Location,Category,Type,Source,Applied,CL/msg?,Exam,Interview,Status
 4/1/2025,Remote,Entry,Part-Time,Indeed,TRUE,FALSE,FALSE,FALSE,Waiting
 4/2/2025,Remote,Creative,Contract,Indeed,TRUE,FALSE,FALSE,FALSE,Waiting
 4/3/2025,On-site,Data/Web,Contract,Robert Half,TRUE,FALSE,FALSE,FALSE,Waiting
-4/3/2025,Hybrid,Data/Web,Full-Time,Simplify Jobs,TRUE,FALSE,FALSE,FALSE,Waiting
+4/3/2025,Hybrid,Data/Web,Full-Time,Simplify Jobs,TRUE,FALSE,FALSE,TRUE,Waiting
 4/4/2025,Remote,Engineering,Part-Time,Handshake,TRUE,FALSE,FALSE,FALSE,Waiting
 4/4/2025,Remote,Data/Web,Internship,Handshake,TRUE,TRUE,FALSE,FALSE,Rejected
 4/6/2025,Remote,Creative,Full-Time,Indeed,TRUE,FALSE,FALSE,FALSE,Waiting
 4/6/2025,Remote,Creative,Full-Time,LinkedIn,TRUE,FALSE,FALSE,FALSE,Waiting
-4/6/2025,Remote,Creative,Full-Time,Company Website,TRUE,FALSE,FALSE,FALSE,Waiting
+4/6/2025,Remote,Creative,Full-Time,Company Website,TRUE,FALSE,FALSE,FALSE,Rejected
 4/6/2025,Remote,Creative,Full-Time,Company Website,TRUE,FALSE,FALSE,FALSE,Rejected
 4/7/2025,Remote,Creative,Internship,Handshake,TRUE,FALSE,FALSE,FALSE,Waiting
 4/7/2025,On-site,Astro,Full-Time,AAS,TRUE,FALSE,FALSE,FALSE,Rejected
@@ -662,9 +662,9 @@ Date,Location,Category,Type,Source,Applied,CL/msg?,Exam,Interview,Status
 4/11/2025,Remote,Entry,Contract,Cella,TRUE,FALSE,FALSE,FALSE,Waiting
 4/11/2025,On-site,Engineering,Full-Time,Simplify Jobs,TRUE,FALSE,FALSE,FALSE,Waiting
 4/11/2025,On-site,Engineering,Full-Time,Simplify Jobs,TRUE,FALSE,FALSE,FALSE,Rejected
-4/13/2025,Remote,Creative,Full-Time,Indeed,TRUE,TRUE,FALSE,FALSE,Waiting
-4/14/2025,Remote,Creative,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Waiting
-4/14/2025,Remote,Creative,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Waiting
+4/13/2025,Remote,Creative,Full-Time,Indeed,TRUE,TRUE,FALSE,FALSE,Rejected
+4/14/2025,Remote,Creative,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Rejected
+4/14/2025,Remote,Creative,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Rejected
 4/14/2025,Remote,Creative,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Rejected
 4/14/2025,Remote,Creative,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Waiting
 4/14/2025,Remote,Creative,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Waiting
@@ -682,26 +682,26 @@ Date,Location,Category,Type,Source,Applied,CL/msg?,Exam,Interview,Status
 4/16/2025,Remote,Creative,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Waiting
 4/16/2025,Remote,Data/Web,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Rejected
 4/16/2025,Remote,Engineering,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Waiting
-4/16/2025,Remote,Engineering,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Waiting
+4/16/2025,Remote,Engineering,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Rejected
 4/16/2025,Remote,Data/Web,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Rejected
 4/17/2025,Remote,Data/Web,Full-Time,Indeed,TRUE,FALSE,FALSE,FALSE,Waiting
 4/17/2025,Remote,Creative,Contract,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Rejected
 4/17/2025,Remote,Creative,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Waiting
-4/20/2025,Remote,Engineering,Full-Time,Indeed,TRUE,FALSE,FALSE,FALSE,Waiting
+4/20/2025,Remote,Engineering,Full-Time,Indeed,TRUE,FALSE,FALSE,FALSE,Rejected
 4/22/2025,Remote,Creative,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Waiting
 4/23/2025,On-site,Entry,Part-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Waiting
 4/23/2025,Remote,Creative,Contract,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Waiting
 4/28/2025,Remote,Creative,Full-Time,Indeed,TRUE,FALSE,FALSE,FALSE,Waiting
+4/28/2025,Remote,Creative,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Rejected
 4/28/2025,Remote,Creative,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Waiting
-4/28/2025,Remote,Creative,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Waiting
-4/28/2025,Remote,Creative,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Waiting
-4/28/2025,Remote,Creative,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Waiting
+4/28/2025,Remote,Creative,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Rejected
+4/28/2025,Remote,Creative,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Rejected
 4/28/2025,Remote,Data/Web,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Waiting
 4/28/2025,On-site,Data/Web,Internship,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Waiting
 4/28/2025,Hybrid,Creative,Full-Time,Indeed,TRUE,FALSE,FALSE,FALSE,Waiting
 5/1/2025,Remote,Creative,Contract,Indeed,TRUE,FALSE,FALSE,FALSE,Waiting
 5/1/2025,Remote,Data/Web,Contract,Indeed,TRUE,FALSE,FALSE,FALSE,Waiting
-5/1/2025,Remote,Creative,Part-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Waiting
+5/1/2025,Remote,Creative,Part-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Rejected
 5/1/2025,Remote,Creative,Full-Time,Hiring.cafe,TRUE,FALSE,FALSE,FALSE,Waiting
 ,,,,,FALSE,FALSE,FALSE,FALSE,N/A
 ,,,,,FALSE,FALSE,FALSE,FALSE,N/A
